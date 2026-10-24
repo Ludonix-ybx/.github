@@ -41,7 +41,7 @@ Installers and release files are published in [**Arcflow-setup-releases**](https
 
 ## Founder
 
-Founded and led by **Nic0** ([@NSanin-dev](https://github.com/NSanin-dev)), a C# developer working with ASP.NET Core and Blazor.
+Founded and led by **Nic0** ([@NSanin-dev](https://github.com/NSanin-dev)).
 
 <br>
 
