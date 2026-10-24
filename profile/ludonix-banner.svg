@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" fill="none" role="img" aria-label="Ludonix YBX Holdings: independent software company, Canada">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#17103A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="40%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4DD8FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8CFF"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DD8FF"/>
+      <stop offset="100%" stop-color="#D946EF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="card">
+      <rect x="1" y="1" width="858" height="238" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="860" height="240" fill="url(#bg)"/>
+    <rect width="860" height="240" fill="url(#dots)"/>
+    <rect width="860" height="240" fill="url(#glow)"/>
+
+    <!-- hexagon mark -->
+    <g transform="translate(264 96)">
+      <path d="M0,-50 L43.3,-25 L43.3,25 L0,50 L-43.3,25 L-43.3,-25 Z"
+            fill="url(#brand)" fill-opacity="0.14" stroke="url(#brand)" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M0,-22 L19,-11 L19,11 L0,22 L-19,11 L-19,-11 Z"
+            stroke="url(#brand)" stroke-width="4" stroke-linejoin="round" stroke-opacity="0.85"/>
+      <!-- sparkle -->
+      <g transform="translate(40 -44)">
+        <path d="M0,-12 L2.6,-2.6 L12,0 L2.6,2.6 L0,12 L-2.6,2.6 L-12,0 L-2.6,-2.6 Z" fill="#CFF3FF">
+          <animateTransform attributeName="transform" type="scale" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <!-- wordmark -->
+    <text x="344" y="100" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="800"
+          letter-spacing="5" fill="url(#word)">LUDONIX</text>
+    <text x="346" y="134" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500"
+          letter-spacing="12" fill="#9CA3C7">HOLDINGS</text>
+
+    <!-- tagline -->
+    <text x="430" y="186" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="13" letter-spacing="5" fill="#8D93B8">INDEPENDENT SOFTWARE COMPANY  ·  CANADA</text>
+
+    <!-- sweeping accent line -->
+    <rect x="130" y="206" width="600" height="2" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="130" y="206" width="200" height="2" fill="url(#line)">
+      <animate attributeName="x" values="130;530;130" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="858" height="238" rx="12" stroke="#2A2F55" stroke-width="1.5"/>
+</svg>
